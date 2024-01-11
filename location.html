@@ -24,20 +24,98 @@
                 <i class="fa fa-xmark" onclick="hideMenu()" style="color: #ffffff;"></i>
                 <ul>
                     <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
                     <li><a href="">About</a></li>
                     <li><a href="location.html">Location</a></li>
                 </ul>
             </div>
             <i class="fa fa-bars" onclick="showMenu()" style="color: #ffffff;"></i>
         </nav>
-<div class="title-box">
+        <div class="title-box">
 
-    <h1> Location </h1>
-</div>
+            <h1> Location </h1>
+        </div>
     </section>
+    <div class="maps">
+        <div class="mapouter">
+            <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no"
+                    marginheight="0" marginwidth="0"
+                    src="https://maps.google.com/maps?width=660&amp;height=670&amp;hl=en&amp;q=La chassah Felisa&amp;t=&amp;z=19&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
+                    href="https://connectionsgame.org/">Connections Unlimited</a></div>
+        </div>
+    </div>
+
+        <section class="email-box">
+            <div class="contact">
+                <div class="contact-details">
+                    <div class="icon">
+                        <i class="fa fa-home"></i>
+                    </div>
+                    <div class="text">
+                        <h1> #341 Purok 3 Barangay Sirang Lupa</h1>
+                        <p>Calamba City, Laguna</p>
+                    </div>
+                </div>
+                <div class="contact-details">
+                    <div class="icon">
+                        <i class="fa fa-phone"></i>
+                    </div>
+                    <div class="text">
+                        <h1> +63 9228210359</h1>
+                        <p>Monday to Sunday</p>
+                    </div>
+                </div>
+                <div class="contact-details">
+                    <div class="icon">
+                        <i class="fa fa-at"></i>
+                    </div>
+                    <div class="text">
+                        <h1> lachassahfelisa@gmail.com</h1>
+                        <p>Email us quickly</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="email-inputbox">
+                <form method="POST" action="send-email.php">
+                    <input type="text" name="name" placeholder="Name">
+                    <input type="text" name="email" placeholder="Email">
+                    <input type="text" name="contactNumber" placeholder="Contact Number">
+                    <input type="text" name="subject" placeholder="Subject">
+                    <textarea name="message" rows="10" cols="53" placeholder="Message"> </textarea>
+                    <button>Submit</button>
+                </form>
+             
+    
+            </div>
+    
+        </section>
+        <footer>
+            <div class="footer">
+                <div class="footer-details">
+                    <h4>La Chassah Felisa</h4>
+                    <p> #341 Purok 3 Brgy. Sirang Lupa Calamba City, Laguna</p>
+                    <a href="https://www.facebook.com/LaChassahFelisa/" target="_blank"><i
+                            class="fa-brands fa-facebook"></i></a>
+                </div>
+                <div class="footer-details">
+                    <h4> Contact Us</h4>
+                    <p> Email: email@gmail.com</p>
+                    <p> Mobile: 09228210359 </p>
+                    <p> Landline: (049) 549-4262 </p>
+                </div>
+                <div class="footer-details">
+                    <h4>Find us on Waze or GoogleMaps:</h4>
+                    <p> La Chassah Felisa, Calamba City, Laguna</p>
+                </div>
+            </div>
+    
+        </footer>
+   
+
 
     <!-- Nav js -->
-    <script src="script.js"></script> 
+    <script src="script.js"></script>
 
 </body>
 
